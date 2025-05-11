@@ -1,0 +1,115 @@
+Project Title: Reversi with Enhanced AI Strategy 
+ Submitted By: Nabiha Fatima K21-3634, Almeeza Tariq K21-3586, Huzaifa Farraz K21-3602 
+ Course: AI 
+ Instructor: [Miss Mehak Mazhar] 
+  
+1.	Project Overview 
+Project Topic: 
+This project is based on Reversi (Othello) but with an enhanced AI strategy using advanced heuristics and an optimized Minimax algorithm. The AI will be designed to predict human moves better and adapt over time. The game board and mechanics remain the same, but AI capabilities will be significantly improved. 
+Objective: 
+The primary goal of this project is to: 
+●	Develop a strategic AI for Reversi using Minimax with Alpha-Beta Pruning. 
+ 
+●	Implement an adaptive heuristic evaluation function to make the AI stronger. 
+ 
+●	Optimize the AI decision-making process to work efficiently in real-time gameplay. 
+ 
+●	Create an interactive GUI to visualize gameplay. 
+ 
+  
+2.	Game Description 
+Original Game Background: 
+Reversi is a two-player strategy board game played on an 8×8 grid. Players take turns placing their colored discs (Black or White) on the board. When a player places a disc, all opponent's pieces trapped between two of their own pieces (horizontally, vertically, or diagonally) get flipped to their color. The game ends when no more moves are possible, and the player with the most discs wins. 
+
+
+Innovations Introduced: 
+●	AI Optimization: The traditional Reversi AI will be improved using Alpha-Beta Pruning for better move searching. 
+ 
+●	Adaptive Heuristic Design: AI will learn opponent’s patterns and adjust strategies accordingly. 
+ 
+●	Difficulty Modes: Users can select AI difficulty (Easy, Medium, Hard). 
+ 
+●	GUI-based Gameplay: A Pygame-based interface will be developed for smooth visualization. 
+ 
+  
+3.	AI Approach and Methodology 
+AI Techniques to be Used: 
+●	Minimax Algorithm: Used to simulate AI decision-making by considering all possible moves. 
+ 
+●	Alpha-Beta Pruning: Optimizes Minimax by eliminating unnecessary move evaluations. 
+ 
+●	Heuristic Evaluation: AI evaluates board positions using weighted functions. 
+ 
+●	Reinforcement Learning (Optional): AI can learn from past games to improve. 
+ 
+Heuristic Design: 
+●	Board position weights will be assigned (corner pieces have high value). 
+ 
+●	AI will prioritize corner and edge positions to avoid being trapped. 
+ 
+●	Moves that maximize control over the board will be preferred. 
+ 
+ 
+ 
+Complexity Analysis: 
+●	Minimax Algorithm Complexity: O(b^d), where b = branching factor, d = depth. 
+ 
+●	Alpha-Beta Pruning reduces complexity: O(b^(d/2)), making AI faster. 
+ 
+●	Challenges: Optimizing the evaluation function for better AI performance. 
+ 
+  
+4.	Game Rules and Mechanics 
+Modified Rules: 
+●	AI follows the same game rules but plays intelligently. 
+ 
+●	Player can select AI difficulty level before the game starts. 
+ 
+●	AI adapts based on past moves using heuristics. 
+ 
+Winning Conditions: 
+●	Game ends when no legal moves remain. 
+ 
+●	Player with the highest number of discs wins. 
+ 
+Turn Sequence: 
+●	Players take turns to place their pieces. 
+ 
+●	If a player has no legal moves, the turn is skipped. 
+ 
+●	Game continues until no moves are left. 
+ 
+  
+ 
+5.	Implementation Plan 
+Programming Language: 
+●	Python 
+ 
+Libraries and Tools: 
+●	Pygame (for GUI) 
+ 
+●	NumPy (for board state handling) 
+ 
+●	Scikit-learn (for AI enhancements) 
+ 
+●	Alpha-Beta Pruning with Minimax (for AI logic) 
+ 
+Milestones and Timeline: 
+●	Week 1-2: Game design and rule finalization. 
+ 
+●	Week 3-4: AI strategy development (Minimax and heuristics). 
+ 
+●	Week 5-6: Coding and testing game mechanics. 
+ 
+●	Week 7: AI integration and optimization. 
+ 
+●	Week 8: Final testing and report submission. 
+ 
+  
+6.	References 
+●	[Online Reversi Strategies and AI Implementations] 
+ 
+●	[Books on Artificial Intelligence and Game Development] 
+ 
+●	[Research Papers on Minimax and Alpha-Beta Pruning] 
+ 
